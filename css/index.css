@@ -1,0 +1,230 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {
+			margin:0;
+			padding:0
+			} 
+		a{
+			text-decoration: none;
+		}
+		li{
+			list-style: none;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.homeheader{
+			width: 750px;
+			height: 98px;
+			background: #f34336;
+			font-size: 24px;
+			text-align: center;
+			line-height: 98px;
+			position: relative;
+			color: white;
+		}
+			.homeheader a{
+				display: inline-block;
+				width: 140px;
+				height: 98px;
+				background: url(../img/logo.png) no-repeat center;
+				position: absolute;
+				left: 0;
+				top: 0;
+				text-indent: -99999px;
+				
+			}
+		.main{
+			width: 100%;
+			position: absolute;
+			top: 98px;
+			left: 0;
+			right: 0;
+			bottom: 98px;
+			background: white;
+		}
+			.main .left{
+				width: 140px;
+				height: 100%;
+				background: #f4f4f4;
+			}
+			.left li{
+				text-align: center;
+				margin-bottom: 15px;
+			}
+			.left li a{
+				display: block;
+				font-size: 24px;
+				color: #3a3a3a;
+			}
+			.beijing{
+				display: block;
+				width: 62px;
+				height: 62px;
+				border-radius: 50%;
+				margin: 0 auto 10px;
+			}
+			.zhucai{
+				background: url(../img/zhucai.png) no-repeat center 10px #dbdbdb;
+			}
+			.hot{
+				background: url(../img/hot.png) no-repeat center 10px #dbdbdb;
+			}
+			.liangcai{
+				background: url(../img/liangcai.png) no-repeat center 10px #dbdbdb;
+			}
+			.tangpin{
+				background: url(../img/tangpin.png) no-repeat center 10px #dbdbdb;
+			}
+			.dianxin{
+				background: url(../img/dianxin.png) no-repeat center 10px #dbdbdb;
+			}
+			
+			.left li.active a{
+				color: #f34336;
+			}
+			.left li.active .zhucai{
+				background: url(../img/zhucai.png) no-repeat center 10px #f34336;
+			}
+			.left li.active .hot{
+				background: url(../img/hot.png) no-repeat center 10px #f34336;
+			}
+			.left li.active .liangcai{
+				background: url(../img/liangcai.png) no-repeat center 10px #f34336;
+			}
+			.left li.active .tangpin{
+				background: url(../img/tangpin.png) no-repeat center 10px #f34336;
+			}
+			.left li.active .dianxin{
+				background: url(../img/dianxin.png) no-repeat center 10px #f34336;
+			}
+		
+		.line{
+			width: 2px;
+			height: 44px;
+			margin: 0 auto;
+			display: block;
+			background: #dbdbdb;
+		}
+		
+		.left li:nth-child(1){
+			padding-top: 46px;
+		}
+		
+		.right{
+			position: absolute;
+			left: 160px;
+			top: 0px;
+			right: 20px;
+			bottom: 0px;
+			overflow-y: auto;
+		}
+			.right h3{
+				font-size: 24px;
+				color: #727a7f;
+				padding: 20px 0;
+			}
+			.right .dinner-list img{
+				width: 100%;
+			}
+			.right .dinner-pic{
+				position: relative;
+			}
+			.right .dinner-pic .zhuo{
+						height: 44px;
+						line-height: 44px;
+						position: absolute;
+						right: 0;
+						bottom: 15px;
+						color: #fff;
+						font-size: 24px;
+						background: rgba(0, 0, 0, .6);
+						padding-left: 12px;
+						padding-right: 14px;
+			}
+			.dinner-pic span.zhuo i {
+							display: block;
+							width: 9px;
+							height: 44px;
+							background: url('../img/left-bac.png') no-repeat;
+							float: left;
+							margin-left: -21px;
+						}
+			.right .dinner-name{
+				position: relative;
+			}
+						
+				.right .dinner-name h5{
+					font-size: 24px;
+					color: black;
+					padding: 20px 0;
+					font-weight: 100;
+				}			
+					.dinner-name span{
+						color: darkgrey;
+						font-size: 24px;
+					}
+					.dinner-name i{
+						color: black;
+						font-size: 24px;
+						font-style: normal;
+					}
+					.dinner-name .jianshao{
+						width: 48px;
+						height: 48px;
+						border: 1px solid #f34336;
+						border-radius: 50%;
+						
+						position: absolute;
+						top: 26px;
+						right: 130px;
+						background: url(../img/jian.png) no-repeat center white;
+					}
+					.dinner-name .num{
+						font-size: 35px;
+						position: absolute;
+						top: 28px;
+						right: 94px;
+					}
+					.dinner-name .tianjia{
+						width: 48px;
+						height: 48px;
+						border: none;
+						border-radius: 50%;
+						
+						position: absolute;
+						top: 26px;
+						right: 20px;
+						background: url(../img/add.png) no-repeat center #f34336;
+					}
+					
+					
+		.homefooter{
+			width: 100%;
+			height: 98px;
+			background: #3e3a39;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+			.homefooter span{
+				color: white;
+				font-size: 32px;
+				line-height: 98px;
+				padding-left: 26px;
+			}
+			.homefooter button{
+				border: none;
+				float: right;
+				width: 224px;
+				height: 98px;
+				font-size: 32px;
+				text-align: center;
+				background: #6b615e;
+				color: #8e8c8c;
+			}
+			.homefooter button.mycolor{
+						background: #f34336;
+						color: white;
+					}

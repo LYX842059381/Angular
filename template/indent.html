@@ -1,0 +1,33 @@
+
+	
+		<header class="indentheader">
+			<a href="#/home"><button></button></a>
+			<span>确认订单</span>
+		</header>
+		
+		<div class="user1">
+			<ul>
+				<li class="liOne"><i></i><span>阿国是糖</span></li>
+				<li class="liTwo" ng-repeat="item in shopList" ng-if="item.num">
+					<span class="caiMing">{{ item.name }}</span>&nbsp;<b class="price">¥{{ item.price }}</b> <span class="danWei">/{{ item.unit }}</span>
+					<button class="add" ng-click="jian($index)"></button><b class="num">{{ item.num }}</b><button class="jian" ng-click="jia($index)"></button>	
+				</li>
+			</ul>
+		</div>
+		<div class="shuRu">
+			<input type="text" name="" id="" value="" placeholder="备注：（选填）请输入您的口味、要求、忌口等"/>
+		</div>
+		
+		<footer class="indentfooter">
+			<span>已点{{totalNum}}道菜,总价: {{totalPrice}}</span>
+			<button ng-click="tan()">传送厨房</button>
+		</footer>
+		
+		<div class="zhezhao" ng-show='ifchose'>
+			
+		</div>
+		
+		<div class="tanchuang" ng-show='ifchose'>
+			<p>确定让厨房开始制作菜品了吗？</p>
+			<button class="quxiao" ng-click="quxiao()">取消</button><a href="#/xiangqing"><button class="queding">确定</button></a>
+		</div>

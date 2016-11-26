@@ -1,0 +1,221 @@
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+	pre,code,form,fieldset,legend,textarea,p,blockquote,
+	th,td,input,select,textarea,button {
+										margin:0;
+										padding:0;
+									} 
+					a{
+						text-decoration: none;
+					}
+					li{
+						list-style: none;
+					}
+					html,body{
+						width: 100%;
+						height: 100%;
+						overflow: hidden;
+						background: #f4f4f4;
+					}
+		
+		
+	.indentheader{
+		width: 100%;
+		height: 98px;
+		background: white;
+		font-size: 36px;
+		text-align: center;
+		position: relative;
+		color: #555555;
+		font-weight: 800;
+		line-height: 98px;
+		border-bottom: 1px solid #dbdbdb;
+	}
+	
+			.indentheader button{
+				width: 140px;
+				height: 98px;
+				background: url(../img/back.png) no-repeat center;
+				border: none;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+	
+	.user1{
+		margin-top: 32px;
+		background: white;
+		width: 100%;
+		border-top: 1px solid #dbdbdb;
+		border-bottom: 1px solid #dbdbdb;
+	}
+			 .user1 li{
+			 	width: 690px;
+			 	height: 88px;
+			 	line-height: 88px;
+			 	margin: 0 30px;
+			 }
+			 .user1 .liOne{
+			 	border-bottom: 1px dashed #dbdbdb;
+			 }
+			 .user1 .liOne i{
+			 	display: inline-block;
+			 	width: 52px;
+			 	height: 52px;
+			 	border-radius: 50%;
+			 	background: url(../img/user.png) no-repeat center;
+			 	vertical-align: middle;
+			 }
+			 .user1 .liOne span{
+			 	margin-left: 25px;
+			 	vertical-align: middle;
+			 	font-size: 28px;
+			 	color: #999999;
+			 }
+			.user1 .liTwo{
+				line-height: 88px;
+				border-bottom: 1px solid #dbdbdb;
+				position: relative;
+			}
+			.user1 .liTwo .caiMing{
+				display: inline-block;
+				width: 345px;
+				font-size: 32px;
+				color: #333333;
+				font-family: "微软雅黑";
+				
+			}
+			.user1 .liTwo .price{
+				font-size: 32px;
+				color: #333333;
+				font-family: "微软雅黑";
+				
+			}
+			.user1 .liTwo .danWei{
+				font-size: 32px;
+				color: #999999;
+				font-family: "微软雅黑";
+				
+			}
+			.user1 .liTwo .add{
+				width: 52px;
+				height: 52px;
+				border-radius: 50%;
+				border: 1px solid #f56056;
+				background:  url(../img/jian.png) no-repeat center;
+				vertical-align: middle;
+				position: absolute;
+				top: 20px;
+				right: 120px;
+				
+			}
+			.user1 .liTwo .num{
+				font-size: 32px;
+				color: #333333;
+				position: absolute;
+				top: 0px;
+				right: 82px;
+			}
+			.user1 .liTwo .jian{
+				width: 52px;
+				height: 52px;
+				border-radius: 50%;
+				border: 1px solid #f56056;
+				background:  url(../img/add.png) no-repeat center #f34336;
+				position: absolute;
+				top: 20px;
+				right: 0;
+				
+				
+			}
+	.shuRu{
+		width: 100%;
+		height: 88px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 98px;
+	}
+			.shuRu input{
+				width: 100%;
+				height: 88px;
+				border: none;
+				font-size: 28px;
+				text-indent: 30px;
+			}
+
+
+	.indentfooter{
+			width: 100%;
+			height: 98px;
+			background: #3e3a39;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+			.indentfooter span{
+				color: white;
+				font-size: 32px;
+				line-height: 98px;
+				padding-left: 26px;
+			}
+			.indentfooter button{
+				border: none;
+				float: right;
+				width: 224px;
+				height: 98px;
+				font-size: 32px;
+				text-align: center;
+				background: #f34336;
+				color: white;
+			}
+	
+	.zhezhao{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: black;
+		opacity: 0.5;
+		
+		
+	}
+	
+	.tanchuang{
+		width: 542px;
+		height: 246px;
+		border-radius: 5%;
+		background: #f0f0f0;
+		position: absolute;
+		top: 480px;
+		left: 105px;
+		
+	}
+	.tanchuang p{
+		display: block;
+		height: 154px;
+		line-height: 154px;
+		font-size: 32px;
+		text-align: center;
+		color: black;
+		font-family: "微软雅黑";
+		border-bottom: 1px solid #dbdbdb;
+	}
+	.tanchuang .quxiao{
+		width: 271px;
+		height: 92px;
+		border: none;
+		font-size: 32px;
+		color: #f34336;
+		background: #f0f0f0;
+	}
+	
+	.tanchuang .queding{
+		width: 271px;
+		height: 92px;
+		border: none;
+		font-size: 32px;
+		color: #f34336;
+		background: #f0f0f0;
+	}

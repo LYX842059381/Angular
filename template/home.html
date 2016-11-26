@@ -1,0 +1,44 @@
+		<header class="homeheader">
+			<a href="">
+				三斤耗儿鱼
+			</a>
+			<span>渝北店，8号桌</span>
+		</header>
+		
+		<div class="main">
+			<div class="left">
+				<ul>
+					<li ng-repeat="item in allData" ng-click="changeNav($index)" ng-class="{true:'active'}[item.ifChose]">
+						<a href="">
+							<i class="line" ng-hide="$first"></i>
+							<span class="beijing {{item.class}}"></span>
+							{{item.name}}
+						</a>
+						
+					</li>
+				</ul>
+			</div>
+			<div class="right">
+				<h3>{{dinnerTitle}}</h3>
+				<ul class="dinner-list">
+					<li ng-repeat="item in dinnerList">
+						<div class="dinner-pic">
+							<img ng-src="{{item.pic}}"/>
+							<span class="zhuo"><i></i>同桌已点{{item.tongzhuo}}份</span>
+						</div>
+						<div class="dinner-name">
+							<h5>{{item.name}}</h5>
+							<span><i>¥{{item.price}}</i>/{{item.unit}}</span>
+							<button ng-click="reduce($index)" class="jianshao"></button>
+							<i class="num">{{item.num}}</i>
+							<button ng-click="add($index)" class="tianjia"></button>
+						</div>
+					</li>
+				</ul>
+			</div>	
+		</div>
+		
+		<footer class="homefooter">
+			<span>已点{{totalNum}}道菜,总价: {{totalPrice}}</span>
+			<a href="#/shop"><button ng-class="{true:'mycolor'}[ifon]">已点菜单</button></a>
+		</footer>
